@@ -12,8 +12,8 @@
 
 **dodanie wszystkich plikow i stworzenie commita**
 
-git status                                        <----- staging process, .git
+git status                                        <----- staging process, .git <------ sprawdzenie zmian w lokalnym repozytorium
 
-git add . && git commit -m "nazwa commita"        <----- staging process, .git
+git add . && git commit -m "nazwa commita"        <----- staging process, .git <------ commit do lokalnego repozytorium
 
-git push origin [nazwa naszego brancha]           <----- staging process, .git
+git push origin [nazwa naszego brancha]           <----- staging process, .git <------ pushowanie do zdalnego repozytorium
